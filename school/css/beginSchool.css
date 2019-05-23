@@ -1,0 +1,43 @@
+@charset "utf-8";
+.bodyDiv{
+	width: 1460px;
+	margin: 0 auto;
+	
+
+}
+.schoolDiv{
+
+	margin: 0 auto;
+	width: 1460px;
+}
+.beginschoolcontent1{
+	height: 1530px;
+
+	padding-top: 20px;
+	
+}
+.beginschoolcontent1-left{
+	height: 1500px;	
+	width: 300px;
+	float: left;
+
+
+	margin-left: 200px;
+	
+}
+.beginschoolcontent1-right{
+		font-size: 20px;
+
+	float: left;
+	width: 645px;
+	height: 1500px;
+	line-height: 40px;
+
+	margin-left: 100px;
+}
+.beginschoolDiv{
+
+	margin: 0 auto;
+	width: 1460px;
+
+}

@@ -1,0 +1,80 @@
+@charset "utf-8";
+.bodyDiv{
+	width: 1460px;
+	margin: 0 auto;
+	
+
+}
+.schoolDiv{
+
+	margin: 0 auto;
+	width: 1460px;
+}
+.schoolcontent1{
+	margin-top: 50px;
+	height: 550px;
+	width: 1460px;
+
+
+}
+.schoolcontent1-left{
+	height: 500px;
+	
+	width: 550px;
+	float: left;
+	margin-left: 100px;
+
+
+	
+}
+
+.schoolcontent1-right{
+	font-size: 20px;
+
+	float: left;
+	width: 645px;
+	height: 500px;
+	line-height: 40px;
+
+	
+	
+}
+.schoolnamediv{
+	font-size: 50px;
+	padding-top: 20px;
+}
+.schoolcontent2{
+	margin-top: 50px;
+	height: 2980px;
+	width: 1460px;
+
+
+}
+.schoolcontent2-left{
+	height: 2952px;
+	
+	width: 550px;
+	float: left;
+	
+
+	margin-left: 70px;
+
+	
+}
+
+.schoolcontent2-right{
+	font-size: 20px;
+
+	float: left;
+	width: 645px;
+	height: 2952px;
+	line-height: 40px;
+
+	margin-left: 100px;
+	
+	
+}
+.tese{
+	font-size: 28px;
+	font-weight: 1000px;
+}

@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>重庆邮电大学移通学院招生网</title>
+		<link rel="stylesheet" href="../css/cssd.css" />
+		<link rel="stylesheet" href="../css/layui.css" />
+		<script type="text/javascript" src="../js/layui.all.js"></script>
+		<script type="text/javascript" src="../js/en.js"></script>
+	</head>
+
+	<body class="center">
+		<audio src="../img/Dennis Kuo - Ever Eternity.mp3"  autoplay="autoplay">
+  </audio> 
+		<div class="head center">
+			<div class="head-Central">
+				<img src="../img/images/xiaohui.png" class="schoolImage">
+				<span class="schoolNmae">重庆邮电大学移通学院</span><br>
+				<span class="zhaoSheng">招生网</span>
+			</div>
+			<div class="head-left fl">
+				<ul>
+					<li>
+						<a href="index.html">首&nbsp;&nbsp;页</a>
+					</li>
+					<li>
+						<a  href="school.html">学院简介</a>
+					</li>
+										<li>
+						<a  href="#fengge">学院风采</a>
+					</li>
+					<li>
+						<a  href="addStudent.html">招生专栏</a>
+					</li>
+					<li>
+						<a  href="beginSchool.html">入学指南</a>
+					</li>
+
+					<li>
+						<a  href="join.html">在线报名</a>
+					</li>
+					<li>
+						<input type="text"  style="font-size: 15px;width: 100px;height: 25px;background-color:steelblue;border: 1px solid white;margin-left: 35px;"/>
+						<input type="button" value="搜索" style="width: 35px;font-size: 15px;" />
+					</li>
+					
+				</ul>
+			</div>
+
+		</div>
+		<div class="central clear">
+			<div class="central-1" style="width: 1460px; height: 500px;background-color: aqua">
+				<div class="layui-carousel" id="test1">
+					<div carousel-item>
+						<div><img src="../img/images/school16.png" width: 100%; height: 500px;/></div>
+						<div><img src="../img/images/school14.jpg" width: 100%; height: 500px;/></div>
+						<div><img src="../img/images/school13.jpg" width: 100%; height: 500px;/></div>
+						<div><img src="../img/images/school15.JPG" width: 100%; height: 500px;/></div>
+						
+					</div>
+				</div>
+			</div>
+			<div class="central-2">
+				<div class="central-2-1" id="fengge">
+					<span><h1>学院风采</h1></span>
+				</div>
+				<div class="central-2-1-1">
+					<img src="../img/joinImg/join1.png" / style="margin-left: 506px;">
+				</div>
+				<div class="central-2-2">
+					<div>
+						<a href="schoolImg.html" title="校园风景"><img src="../img/images/huanjing(1).jpg"></a>
+					</div>
+					<div>
+						<a href="studentImg.html" title="学生风采"><img src="../img/images/PLC.jpg"></a>
+					</div>
+
+				</div>
+			</div>
+
+		<!--
+    	作者：offline
+    	时间：2018-06-24
+    	描述：主题部分结束！
+    -->
+
+		<div class="fonter">
+			<div class="fonter_bidier">
+				<br />
+			<a href="join.html" class="ends">在线报名</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a a href="" class="ends">在线咨询</a><br /><br />
+			<span>版权所有&copy &nbsp;重庆邮电大学移通学院</span><br>
+			<span>地址：重庆市合川大学城假日大道1号|</span>
+			<span>邮编：401520|</span>
+			<span>渝ICP备12002696号-1</span>
+			</div>
+			</div>
+ 
+
+<script>
+layui.use('carousel', function(){
+  var carousel = layui.carousel;
+  //建造实例
+  carousel.render({
+    elem: '#test1'
+    ,width: '100%' //设置容器宽度
+    ,height:'700px'
+    ,arrow: 'none' //始终显示箭头
+    ,interval:2000
+    //,anim: 'updown' //切换动画方式
+  });
+    var carousel = layui.carousel;
+    //监听轮播切换事件
+    carousel.on('change(test1)', function(obj){ //test1来源于对应HTML容器的 lay-filter="test1" 属性值
+      console.log(obj.index); //当前条目的索引
+      console.log(obj.prevIndex); //上一个条目的索引
+      console.log(obj.item); //当前条目的元素对象
+    });     
+    var ins = carousel.render(options);
+    //重置轮播
+    ins.reload(options);
+});
+</script>
+	</body>
+
+</html>

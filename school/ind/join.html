@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="../css/join.css" />
+		<link rel="stylesheet" href="../css/cssd.css" />
+		<link rel="stylesheet" href="../css/layui.css" />
+		<script type="text/javascript" src="../js/layui.all.js"></script>
+		<script type="text/javascript" src="../js/en.js"></script>
+		<title></title>
+	</head>
+
+	<body class="bodyDiv">
+		<!--
+        	作者：offline
+        	时间：2019-05-15
+        	描述：网页头部
+        -->
+<div class="head center">
+			<div class="head-Central">
+				<img src="../img/images/xiaohui.png" class="schoolImage">
+				<span class="schoolNmae">重庆邮电大学移通学院</span><br>
+				<span class="zhaoSheng">招生网</span>
+			</div>
+			<div class="head-left fl">
+				<ul>
+					<li>
+						<a href="index.html">首&nbsp;&nbsp;页</a>
+					</li>
+					<li>
+						<a  href="school.html">学院简介</a>
+					</li>
+									<li>
+						<a  href="index.html#fengge">学院风采</a>
+					</li>
+					<li>
+						<a  href="addStudent.html">招生专栏</a>
+					</li>
+					<li>
+						<a  href="beginSchool.html">入学指南</a>
+					</li>
+	
+					<li>
+						<a  href="join.html">在线报名</a>
+					</li>
+					<li>
+						<input type="text"  style="font-size: 15px;width: 100px;height: 25px;background-color:steelblue;border: 1px solid white;margin-left: 35px;"/>
+						<input type="button" value="搜索" style="width: 35px;font-size: 15px;" />
+					</li>
+					
+				</ul>
+			</div>
+
+		</div>
+		<!--
+        	作者：offline
+        	时间：2019-05-15
+        	描述：网页内容
+        -->
+		<div class="allDiv">
+			<div class="topDiv">
+				<div class="namediv">在线报名</div>
+				<div class="imgdiv"><img src="../img/joinImg/join1.png"/></div>
+				<div class="thinkdiv">以学生满意度、以学生学习效果为本</div>
+			</div>
+			<div class="contentDiv">
+				<div class="content-Left">
+					<img src="../img/joinImg/join2.jpg" / style="width: 580px;height: 480px;">
+				</div>
+				<div class="content-Right">
+					<TABLE cellSpacing=0 cellPadding=0 width=600 align=center border=0>
+						<TBODY>
+							<TR>
+								<TD bgColor=#ffffff height=3></TD>
+							</TR>
+						</TBODY>
+					</TABLE>
+					<TABLE cellSpacing=0 cellPadding=0 width=600 align=center border=0>
+						<TBODY>
+							<TR>
+								<TD bgColor=#ffffff>
+									<TABLE cellSpacing=0 cellPadding=0 width=600 align=center border=0>
+										<TBODY>
+											<TR>
+												<TD width=5 bgColor=#f9fafc height=97></TD>
+												<TD align=middle width=534 bgColor=#f9fafc>
+													<TABLE cellSpacing=0 cellPadding=0 width=600 border=0>
+														<TBODY>
+															<TR>
+																<TD align=middle>
+																	<FORM name=myform onSubmit="return checkinput();" action="baomin_add.asp" method="post">
+																		<TABLE cellSpacing=0 cellPadding=0 width=600 align=center border=0>
+																			<TBODY>
+
+
+																				<TR>
+																					<TD colSpan=2 style="line-height:24px; padding-left:10px; border:1px solid #CCCCCC;">1、认真如实填写“必填”，“必选”各项。
+																						<br> 2、确认无误后单击“提交报名表”即可，正确提交后会出现“报名成功”提示。
+																						<br>
+																						<span style="color:#CC3300; font-weight:bold">3、请确认身份证号及手机号无误，以便在录取期间能进行身份确认及专业录取等事宜。</span><br>
+																						<span style="color:#CC3300; font-weight:bold">4、填报此表的考生同等条件下学院将优先录取。</span></TD>
+																				</TR>
+																				<TR>
+																					<TD width=149>
+																						<DIV class="hang" align=right>真实姓名：</DIV>
+																					</TD>
+																					<TD width=388>
+																						<INPUT name="username" onKeyUp="value=value.replace(/[^\u4E00-\u9FA5]/g,'')" size="47" min="1" max="10" /><span style="color:#CC3300">（必填）</span></TD>
+																				</TR>
+																				<TR>
+																					<TD width=149>
+																						<DIV class="hang" align=right>性&nbsp;&nbsp;&nbsp;&nbsp;别：</DIV>
+																					</TD>
+																					<TD width=388>
+																						
+																						<input type="radio" name="sex" value="女" />女
+																						<input type="radio" name="sex" value="男" />男
+
+																						<span style="color:#CC3300">（必选）</span></TD>
+																				</TR>
+																				<TR>
+																					<TD width=149>
+																						<DIV class="hang" align=right>籍&nbsp;&nbsp;&nbsp;&nbsp;贯：</DIV>
+																					</TD>
+																					<TD width=388>
+																						<SELECT size=1 name="bornfrom" id="bornfrom">
+																							<OPTION value="">请选择所在省份</OPTION>
+																							<OPTION value="北京">北京</OPTION>
+																							<OPTION value="天津">天津</OPTION>
+																							<OPTION value="河北">河北</OPTION>
+																							<OPTION value="山西">山西</OPTION>
+																							<OPTION value="内蒙古">内蒙古</OPTION>
+																							<OPTION value="辽宁">辽宁</OPTION>
+																							<OPTION value="吉林">吉林</OPTION>
+																							<OPTION value="黑龙江">黑龙江</OPTION>
+																							<OPTION value="上海">上海</OPTION>
+																							<OPTION value="江苏">江苏</OPTION>
+																							<OPTION value="浙江">浙江</OPTION>
+																							<OPTION value="安徽">安徽</OPTION>
+																							<OPTION value="福建">福建</OPTION>
+																							<OPTION value="江西">江西</OPTION>
+																							<OPTION value="广东">广东</OPTION>
+																							<OPTION value="河南">河南</OPTION>
+																							<OPTION value="湖北">湖北</OPTION>
+																							<OPTION value="湖南">湖南</OPTION>
+																							<OPTION value="广西">广西</OPTION>
+																							<OPTION value="海南">海南</OPTION>
+																							<OPTION value="重庆">重庆</OPTION>
+																							<OPTION value="四川">四川</OPTION>
+																							<OPTION value="贵州">贵州</OPTION>
+																							<OPTION value="云南">云南</OPTION>
+																							<OPTION value="西藏">西藏</OPTION>
+																							<OPTION value="陕西">陕西</OPTION>
+																							<OPTION value="甘肃">甘肃</OPTION>
+																							<OPTION value="青海">青海</OPTION>
+																							<OPTION value="宁夏">宁夏</OPTION>
+																							<OPTION value="新疆">新疆</OPTION>
+																						</SELECT><span style="color:#CC3300">（必选）</span></TD>
+																				</TR>
+
+																				<TR>
+																					<TD width=149>
+																						<DIV class="hang" align=right>身份证号：</DIV>
+																					</TD>
+																					<TD width=388>
+																						<INPUT name="usercode" id="usercode" size="47" min="1" max="20" onKeyUp="value=value.replace(/[^\a-\z\A-\Z0-9\u4E00-\u9FA5]/g,'')"><span style="color:#CC3300">（务必正确填写）</span></TD>
+																				</TR>
+																				<TR>
+																					<TD width=149>
+																						<DIV class="hang" align=right>报考科类：</DIV>
+																					</TD>
+																					<TD width=388>
+																						<SELECT id="levels" name="levels">
+																							<OPTION value="">请选择报考科类</OPTION>
+																							<OPTION value="分类考试">分类考试</OPTION>
+																							<OPTION value="普通类">普通类</OPTION>
+																							<OPTION value="艺术类">艺术类</OPTION>
+																						</SELECT><span style="color:#CC3300">（必选）</span></TD>
+																				</TR>
+																				<TR>
+																					<TD width="149">
+																						<DIV class="hang" align=right>总分(预估)：</DIV>
+																					</TD>
+																					<TD>
+																						<INPUT name="results" id="results" size="47" min="1" max="20" onKeyUp="value=value.replace(/\D/g,'')" onafterpaste="value=value.replace(/\D/g,'')">
+																					</TD>
+																				</TR>
+																				<TR>
+																					<TD width=149>
+																						<DIV class="hang" align=right>填报专业一：</DIV>
+																					</TD>
+																					<TD width=388>
+																						<SELECT id="firstdesire" name="firstdesire" style="width: 317px;">
+																							<OPTION value="" selected>请选择专业一</OPTION>
+																							<OPTION value="通信工程">通信工程系—本科—通信工程</OPTION>
+																							<OPTION value="广播电视工程">通信工程系—本科—广播电视工程</OPTION>
+																							<OPTION value="信息工程">电子工程系—本科—信息工程</OPTION>
+																							<OPTION value="电子信息工程">电子工程系—本科—电子信息工程</OPTION>
+																							<OPTION value="电子信息科学与技术">电子工程系—本科—电子信息科学与技术</OPTION>
+																							<OPTION value="计算机科学与技术">计算机系—本科—计算机科学与技术</OPTION>
+																							<OPTION value="网络工程">计算机系—本科—网络工程</OPTION>
+																							<OPTION value="软件工程">计算机系—本科—软件工程</OPTION>
+																							<OPTION value="物联网工程">计算机系—本科—物联网工程</OPTION>
+																							<OPTION value="数字媒体技术">计算机系—本科—数字媒体技术</OPTION>
+																							<OPTION value="电气工程及其自动化">自动化系—本科—电气工程及其自动化</OPTION>
+																							<OPTION value="自动化">自动化系—本科—自动化</OPTION>
+																							<OPTION value="自动化(3D打印方向)">自动化系—本科—自动化(3D打印方向)</OPTION>
+																							<OPTION value="机械电子工程">自动化系—本科—机械电子工程</OPTION>
+																							<OPTION value="建筑电气与智能化">自动化系—本科—建筑电气与智能化</OPTION>
+																							<OPTION value="轨道交通信号与控制">自动化系—本科—轨道交通信号与控制</OPTION>
+																							<OPTION value="测控技术与仪器">自动化系—本科—测控技术与仪器</OPTION>
+																							<OPTION value="机械设计制造及其自动化">自动化系—本科—机械设计制造及其自动化</OPTION>
+																							<OPTION value="光电信息科学与工程">光电信息系—本科—光电信息科学与工程 </OPTION>
+																							<OPTION value="微电子科学与工程">光电信息系—本科—微电子科学与工程 </OPTION>
+																							<OPTION value="信息管理与信息系统">管理工程系—本科—信息管理与信息系统</OPTION>
+																							<OPTION value="工程管理（工程造价方向">管理工程系—本科—工程管理（工程造价方向）</OPTION>
+																							<OPTION value="工程管理（工程管理方向">管理工程系—本科—工程管理（工程管理方向）</OPTION>
+																							<OPTION value="市场营销">工商管理系—本科—市场营销 </OPTION>
+																							<OPTION value="财务管理（会计方向）">工商管理系—本科—财务管理（会计方向）</OPTION>
+																							<OPTION value="财务管理（金融与投资方向）">工商管理系—本科—财务管理（金融与投资方向）</OPTION>
+																							<OPTION value="工商管理（人力资源管理方向）">工商管理系—本科—工商管理（人力资源管理方向）</OPTION>
+																							<OPTION value="工商管理（物流管理方向）">工商管理系—本科—工商管理（物流管理方向）</OPTION>
+																							<OPTION value="英语">外语系—本科—英语 </OPTION>
+																							<OPTION value="德语">外语系—本科—德语 </OPTION>
+																							<OPTION value="动画">艺术传媒学院—本科—动画 </OPTION>
+																							<OPTION value="数字媒体艺术">艺术传媒学院—本科—数字媒体艺术 </OPTION>
+																							<OPTION value="动画">艺术传媒学院—本科—广播电视编导 </OPTION>
+																							<OPTION value="电气工程及其自动化(中外合作)">中德应用技术学院—本科—电气工程及其自动化(中外合作)</OPTION>
+																							<OPTION value="通信技术">中德应用技术学院—专科—通信技术</OPTION>
+																							<OPTION value="计算机应用技术">中德应用技术学院—专科—计算机应用技术</OPTION>
+																							<OPTION value="电气自动化技术">中德应用技术学院—专科—电气自动化技术 </OPTION>
+																							<OPTION value="工商企业管理">中德应用技术学院—专科—工商企业管理 </OPTION>
+																						</SELECT><span style="color:#CC3300">（必选）</span></TD>
+																				</TR>
+																				<TR>
+																					<TD width=149>
+																						<DIV class="hang" align=right>填报专业二：</DIV>
+																					</TD>
+																					<TD width=388>
+																						<select id=seconddesire name=seconddesire style="width: 317px;">
+																							<OPTION value="" selected>请选择专业二</OPTION>
+																							<OPTION value="通信工程">通信工程系—本科—通信工程</OPTION>
+																							<OPTION value="广播电视工程">通信工程系—本科—广播电视工程</OPTION>
+																							<OPTION value="信息工程">电子工程系—本科—信息工程</OPTION>
+																							<OPTION value="电子信息工程">电子工程系—本科—电子信息工程</OPTION>
+																							<OPTION value="电子信息科学与技术">电子工程系—本科—电子信息科学与技术</OPTION>
+																							<OPTION value="计算机科学与技术">计算机系—本科—计算机科学与技术</OPTION>
+																							<OPTION value="网络工程">计算机系—本科—网络工程</OPTION>
+																							<OPTION value="软件工程">计算机系—本科—软件工程</OPTION>
+																							<OPTION value="物联网工程">计算机系—本科—物联网工程</OPTION>
+																							<OPTION value="数字媒体技术">计算机系—本科—数字媒体技术</OPTION>
+																							<OPTION value="电气工程及其自动化">自动化系—本科—电气工程及其自动化</OPTION>
+																							<OPTION value="自动化">自动化系—本科—自动化</OPTION>
+																							<OPTION value="自动化(3D打印方向)">自动化系—本科—自动化(3D打印方向)</OPTION>
+																							<OPTION value="机械电子工程">自动化系—本科—机械电子工程</OPTION>
+																							<OPTION value="建筑电气与智能化">自动化系—本科—建筑电气与智能化</OPTION>
+																							<OPTION value="轨道交通信号与控制">自动化系—本科—轨道交通信号与控制</OPTION>
+																							<OPTION value="测控技术与仪器">自动化系—本科—测控技术与仪器</OPTION>
+																							<OPTION value="机械设计制造及其自动化">自动化系—本科—机械设计制造及其自动化</OPTION>
+																							<OPTION value="光电信息科学与工程">光电信息系—本科—光电信息科学与工程 </OPTION>
+																							<OPTION value="微电子科学与工程">光电信息系—本科—微电子科学与工程 </OPTION>
+																							<OPTION value="信息管理与信息系统">管理工程系—本科—信息管理与信息系统</OPTION>
+																							<OPTION value="工程管理（工程造价方向">管理工程系—本科—工程管理（工程造价方向）</OPTION>
+																							<OPTION value="工程管理（工程管理方向">管理工程系—本科—工程管理（工程管理方向）</OPTION>
+																							<OPTION value="市场营销">工商管理系—本科—市场营销 </OPTION>
+																							<OPTION value="财务管理（会计方向）">工商管理系—本科—财务管理（会计方向）</OPTION>
+																							<OPTION value="财务管理（金融与投资方向）">工商管理系—本科—财务管理（金融与投资方向）</OPTION>
+																							<OPTION value="工商管理（人力资源管理方向）">工商管理系—本科—工商管理（人力资源管理方向）</OPTION>
+																							<OPTION value="工商管理（物流管理方向）">工商管理系—本科—工商管理（物流管理方向）</OPTION>
+																							<OPTION value="英语">外语系—本科—英语 </OPTION>
+																							<OPTION value="德语">外语系—本科—德语 </OPTION>
+																							<OPTION value="动画">艺术传媒学院—本科—动画 </OPTION>
+																							<OPTION value="数字媒体艺术">艺术传媒学院—本科—数字媒体艺术 </OPTION>
+																							<OPTION value="动画">艺术传媒学院—本科—广播电视编导 </OPTION>
+																							<OPTION value="电气工程及其自动化(中外合作)">中德应用技术学院—本科—电气工程及其自动化(中外合作)</OPTION>
+																							<OPTION value="通信技术">中德应用技术学院—专科—通信技术</OPTION>
+																							<OPTION value="计算机应用技术">中德应用技术学院—专科—计算机应用技术</OPTION>
+																							<OPTION value="电气自动化技术">中德应用技术学院—专科—电气自动化技术 </OPTION>
+																							<OPTION value="工商企业管理">中德应用技术学院—专科—工商企业管理 </OPTION>
+
+																						</select>
+																					</TD>
+																				</TR>
+																				<TR>
+																					<TD width=149>
+																						<DIV class="hang" align=right>联系电话一：</DIV>
+																					</TD>
+																					<TD width=388>
+																						<INPUT name="phone" id="phone" size="47" min="1" onKeyUp="value=value.replace(/\D/g,'')" onafterpaste="value=value.replace(/\D/g,'')" max="20"><span style="color:#CC3300">（必填）</span></TD>
+																				</TR>
+																				<TR>
+																					<TD width=149>
+																						<DIV class="hang" align=right>联系电话二：</DIV>
+																					</TD>
+																					<TD width=388>
+																						<INPUT name="mobile" id="mobile" onKeyUp="value=value.replace(/\D/g,'')" onafterpaste="value=value.replace(/\D/g,'')" size="47" max="20">
+																					</TD>
+																				</TR>
+																				<TR>
+																					<TD width=149 >
+																						<DIV class="hang" align=right>通信地址：</DIV>
+																					</TD>
+																					<TD width=388>
+																						<INPUT name="addr" id="addr" size="47" max="50" onkeyup="value=value.replace(/[^\a-\z\A-\Z0-9\u4E00-\u9FA5\,\，\。\—\.]/g,'')">
+																					</TD>
+																				</TR>
+																				<TR>
+																					<TD width=149>
+																						<DIV class="hang" align=right>
+																							<SPAN lang=zh-cn xml:lang="zh-cn">备注信息</SPAN>：</DIV>
+																					</TD>
+																					<TD width=388>
+																						<TEXTAREA id="question" onKeyUp="value=value.replace(/[^\a-\z\A-\Z0-9\u4E00-\u9FA5\,\，\。\@\.]/g,'')" name="question" rows=2 cols=44 max="65535"></TEXTAREA>
+																						<DIV align=left></DIV>
+																					</TD>
+																				</TR>
+																				<TR>
+																					<TD colSpan=2 style="height:40px;">
+																						<TABLE cellSpacing=0 cellPadding=0 width="50%" align=center border=0>
+																							<TBODY>
+																								<TR>
+																									<TD width="29%" align=middle>
+																										<INPUT type=submit value=提交报名表  style="color: black;width: 100px;height: 30px;font-size: 18px;margin-left: 200px;;">
+																									</TD>
+																									<TD width="71%" align=middle>
+																										<INPUT type=reset value=重填报名表  style="color: black;width: 100px;height: 30px;font-size: 18px;margin-left: 50px;">
+																									</TD>
+																								</TR>
+																							</TBODY>
+																						</TABLE>
+																					</TD>
+																				</TR>
+
+																			</TBODY>
+																		</TABLE>
+																	</FORM>
+																</TD>
+															</TR>
+														</TBODY>
+													</TABLE>
+												</TD>
+											</TR>
+										</TBODY>
+									</TABLE>
+								</TD>
+							</TR>
+						</TBODY>
+					</TABLE>
+					<TABLE cellSpacing=0 cellPadding=0 width=799 align=center border=0>
+						<TBODY>
+							<TR>
+								<TD bgColor=#ffffff style="height:5px;"></TD>
+							</TR>
+						</TBODY>
+					</TABLE>
+					<TABLE cellSpacing=0 cellPadding=0 width=600 align=center border=0>
+						<TBODY>
+							<TR>
+								<TD  height=3></TD>
+							</TR>
+						</TBODY>
+					</TABLE>
+					<TABLE cellSpacing=0 cellPadding=0 width=600 align=center border=0>
+						<TBODY>
+							<TR>
+								<TD bgColor=#ffffff style="height:5px;"></TD>
+							</TR>
+						</TBODY>
+					</TABLE>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<!--
+        	作者：offline
+        	时间：2019-05-15
+        	描述：网页尾部
+        -->
+		<div class="fonter">
+			<div class="fonter_bidier">
+				<br />
+				<a href="join.html" class="ends">在线报名</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a a href="" class="ends">在线咨询</a><br /><br />
+				<span>版权所有&copy &nbsp;重庆邮电大学移通学院</span><br>
+				<span>地址：重庆市合川大学城假日大道1号|</span>
+				<span>邮编：401520|</span>
+				<span>渝ICP备12002696号-1</span>
+			</div>
+	</body>
+
+</html>

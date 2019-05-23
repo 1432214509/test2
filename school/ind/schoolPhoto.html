@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+			<title>重庆邮电大学移通学院招生网</title>
+		<link rel="stylesheet" href="../css/layui.css" />
+		<link rel="stylesheet" href="../css/leixing.css" />
+		<link rel="stylesheet" href="../css/cssd.css" />
+		<script type="text/javascript" src="../js/jquery-1.11.0.js"></script>
+		<script type="text/javascript" src="../js/text.js"></script>
+		<script type="text/javascript" src="../js/layui.all.js"></script>
+	</head>
+
+	<body>
+		<div class="lbbj">
+			<div class="anniu"></div>
+			<div class="header fl">
+				<ul>
+					<li>
+						<a href="index.html">首&nbsp;&nbsp;页</a>
+					</li><br />
+					<li>
+						<a href="school.html">学院简介</a>
+					</li><br />
+										<li>
+						<a href="index.html#fengge">学院风采</a>
+					</li><br />
+					<li>
+						<a href="addStudent.html">招生专栏</a>
+					</li><br />
+					<li>
+						<a href="beginSchool.html">入学指南</a>
+					</li><br />
+
+					<li>
+						<a href="join.html">在线报名</a>
+					</li><br />
+
+				</ul>
+			</div>
+			<div class="top" style="padding-top: 50px;font-size: 35px;padding-bottom: 50px;">学校风采</div>
+			<div class="layui-carousel center centert" id="test1" lay-filter="test1">
+				<div carousel-item="" class="qiehuan">
+					<img src="../img/images/school16.png" alt="" />
+					<img src="../img/images/school14.jpg" alt="" />
+					<img src="../img/images/IMG_2311.JPG" alt="" />
+					<img src="../img/images/NO1.jpg" alt="" />
+					<img src="../img/images/NO2.jpg" alt="" />l
+					<img src="../img/images/NO7.png" alt="" />
+					<img src="../img/images/PEEN1259.jpg" alt="" />
+					<img src="../img/images/shuangzi (94).jpg" alt="" />
+					<img src="../img/images/huanjing(1).jpg" alt="" />
+					<img src="../img/images/school8.png" alt="" />
+					<img src="../img/images/fengjing2.jpg" alt="" />
+					<img src="../img/images/fengjing3.jpg" alt="" />
+					<img src="../img/images/fengjing4.jpg" alt="" />
+					<img src="../img/images/fengjing5.jpg" alt="" />
+					<img src="../img/images/fengjing6.jpg" alt="" />
+					<img src="../img/images/fengjing7.jpg" alt="" />
+					<img src="../img/images/fengjing8.jpg" alt="" />
+					<img src="../img/images/fengjing9.jpg" alt="" />
+					<img src="../img/images/fengjing10.jpg" alt="" />
+					<img src="../img/images/fengjing11.jpg" alt="" />
+					<img src="../img/images/fengjing12.jpg" alt="" />
+					<img src="../img/images/fengjing13.jpg" alt="" />
+					<img src="../img/images/school7.png" alt="" />
+					<img src="../img/images/fengjing13.jpg" alt="" />
+
+				</div>
+			</div>
+			<div style="height: 200px;"></div>
+		</div>
+		<script>
+			layui.use('carousel', function() {
+				var carousel = layui.carousel;
+				//建造实例
+				carousel.render({
+					elem: '#test1',
+					width: '1000px',
+					height: '600px',
+					interval: ' 2000', //自动切换的时间间隔，单位：ms（毫秒），不能低于800
+					anim: 'fade', //切换动画方式
+					autoplay: 'true', //是否自动切换
+					indicator: 'none', //指示器位置
+					arrow: 'always', //始终显示箭头
+
+				});
+				var carousel = layui.carousel;
+
+				//监听轮播切换事件
+				carousel.on('change(test1)', function(obj) { //test1来源于对应HTML容器的 lay-filter="test1" 属性值
+					console.log(obj.index); //当前条目的索引
+					console.log(obj.prevIndex); //上一个条目的索引
+					console.log(obj.item); //当前条目的元素对象
+				});
+				var ins = carousel.render(options);
+
+				//重置轮播
+				ins.reload(options);
+
+			});
+		</script>
+
+		<div class="fonter">
+			<div class="fonter_bidier">
+				<br />
+				<a href="join.html" class="ends">在线报名</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a a href="" class="ends">在线咨询</a><br /><br />
+				<span>版权所有&copy &nbsp;重庆邮电大学移通学院</span><br>
+				<span>地址：重庆市合川大学城假日大道1号|</span>
+				<span>邮编：401520|</span>
+				<span>渝ICP备12002696号-1</span>
+			</div>
+	</body>
+
+</html>

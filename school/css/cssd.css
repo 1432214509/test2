@@ -1,0 +1,309 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    margin: 0;
+    padding: 0;
+	
+}
+body {
+    font-size: 12px;
+    line-height: 25px;
+    margin: 0 auto;
+	width: 1460px;
+}
+a  {
+    color: #C8C8C8;
+    text-decoration: none;
+}
+a :hover {
+    color: #ff4e00;
+}
+img {
+    border: 0;
+}
+ul, li, dl, dt, dd {
+    list-style: none;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+
+.center{
+    width: 1460px;
+    margin: 0 auto;
+}
+.clear{
+	clear: both;
+}
+.head-left ul li a {
+    color:black;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.head-left ul li a:hover{
+	    color: #ff4e00;
+}
+
+/*主页样式*/
+
+/*头部*/
+		.head-left ul li a:hover{
+			transform: scale(1.2,1.2);
+			
+		}
+		.head-left ul li a{
+			display: inline-block;
+			
+				transition: All 0.4s ease-in-out;
+		}
+		.central-2-2 div:hover{
+			transform: scale(1.2,1.2);
+			opacity: 0.5;
+		
+		}
+		.central-3-2 div:hover{
+			transform: scale(1.2,1.2);
+			
+				opacity: 0.5;
+			
+		}
+.head{
+	width: 1460px;
+	height: 89px;
+	float: left;
+	background-color:  white;
+	background-image: url(../img/images/top.jpg);
+}
+
+.head-left{
+	float: left;
+	margin-left: 100px;
+
+}
+.head-left ul li{
+	float: left;
+	margin-left: 15px;
+	font-size: 25px;
+	line-height: 89px;
+}
+.head-Central{
+	float: left;
+	margin-left: 50px;
+	height: 80px;
+
+	
+}
+.schoolImage{
+		height: 80px;
+		width: 80px;
+		padding-top: 5px;
+		padding-left: 10px;
+		float: left;"	
+}
+.schoolNmae{
+	float: left;
+	font-family: '楷体';
+	font-size: 25px;
+	margin-left: 20px;
+	padding-top: 10px;
+}
+.zhaoSheng{
+	font-family: '楷体';
+	font-size: 45px;
+	margin-left: 60px;
+	padding-top: 10px;
+}
+
+
+
+
+.central{
+	width: 1460px;
+}
+.central-1{
+	width: 100%;
+	height: 500px;
+	background-color: aqua;
+	margin: 0 auto;
+	
+	
+	
+}
+.layui-carousel div img{
+	width: 1460px;
+	height: 700px;
+}
+
+.central-1-1 ul li div{
+	width:260px;
+	height: 30px;
+	background-color: #373535;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	line-height: 40px;
+	margin-top: 10.5px;
+}
+.central-1-1 ul li div img{
+	padding-top: 10px;
+
+
+}
+.central-1-2{
+	width: 1460px;
+	height: 900px;
+	text-align: center;
+	
+}
+.central-1-2 img{
+	width: 1460px;
+	height: 687px;
+	text-align: center;
+}
+.central-2{
+	margin-top: 200px;
+}
+.central-2-1{
+	height: 50px;
+	background-color: white;
+
+}
+.central-2-1 span h1{
+	text-align: center;
+	color:black;
+	line-height: 50px;
+	padding-top: 15px;
+	
+}
+.central-2-2 {
+	width: 1460px;
+	height: 440px;
+	margin-top: -10px;
+	background-color: white;
+	margin: 0 auto;
+	margin-left: 100px;
+}
+.central-2-2 div{
+	float: left;
+	margin-left: 20px;
+
+}
+
+.central-2-2 div img{
+	width: 550px;
+	height: 350px;
+
+	margin-left: 30px;
+	margin-right: 30px;
+	padding-top: 30px;
+}
+.central-3{
+	margin-top: -7px;
+}
+.central-3-1{
+	height: 60px;
+	background-color:#343336;
+	margin-top: -10px;
+}
+.central-3-1 span h1{
+	text-align: center;
+	color:white;
+	line-height: 60px;
+	
+}
+.central-3-2 {
+	width: 1460px;
+	height: 650px;
+	margin-top: -10px;
+	background-color:#343336;
+}
+.central-3-2 div{
+	float: left;
+	margin-left: 20px;
+
+}
+.central-3-2 div img{
+	width: 400px;
+	height: 250px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 30px;
+}
+/*主体部分样式结束*/
+.fonter{
+	width: 1460px;
+	height: 120px;
+	background-image: url(../img/images/top.jpg);
+	margin: 0px auto;
+
+}
+.fonter_top{
+	width: 1460px;
+	height: 60px;
+	
+	color: black;
+	font-size: 30px;
+	line-height: 60px;
+	text-align: center;
+}
+.fonter1{
+		width: 1460px;
+	height: 120px;
+	background-image: url(../img/images/top.jpg);
+	margin: 0px auto;
+
+}
+.fonter_bidier1{
+		
+	text-align: center;
+	color: black;
+	font-size: 15px;
+}
+.fonter_bidier{
+	background-image: url(../img/images/top.jpg);
+	text-align: center;
+	color: black;
+	font-size: 15px;
+	
+	
+}
+.fonter_fonter{
+	width: 1460px;
+	height: 60px;
+	background-color: black;
+	text-align: center;
+	color: white;
+	
+}
+.ends{
+	font-size: 15px;
+	color: black;
+	padding-bottom: 10px;
+}
+.fonter_fonter_left{
+	margin-left: 500px;
+	float: left;
+	margin-top: 25px;
+}
+
+.fonter_fonter_left img{
+	width: 30px;
+	height: 30px;
+	margin-right: 5px;
+	margin-left: 5px;	
+	border-radius: 5px 5px 5px 5px;
+
+}
+
+.fonter_fonter_right img {
+	width: 80px;
+	height: 40px;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 20px;
+	border-radius: 5px 5px 5px 5px;
+	}

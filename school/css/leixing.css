@@ -1,0 +1,211 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 25px;
+	line-height: 25px;
+	color: #555555;
+	margin: 0px auto;
+	width: 1460px;
+
+	
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ff4e00;
+}
+
+img {
+	border: 0;
+}
+
+ul,
+li,
+dl,
+dt,
+dd {
+	list-style: none;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.center {
+	width:1460px;
+	margin: 0px auto;
+}
+
+.clear {
+	clear: both;
+}
+
+.centert {
+	margin-top: 20px;
+}
+
+.one {
+	padding-left: 30px;
+}
+
+.one img {
+	height: 200px;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+.one img:hover{
+	transform: scale(1.2,1.2);
+	opacity: 0.5;
+}
+.top {
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+}
+
+.tubg {
+	background-color:white;
+}
+
+.qiehuan div img {
+	width: 1000px;
+	height: 666px;
+}
+.header
+{
+	margin-top: 100px;
+
+}
+
+.header ul li {
+	background-color:darkgoldenrod;
+	opacity: 0.5;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 20px;
+	font-weight: 800;
+	margin-top: 30px;
+	padding-top: 20px;
+	display: none;
+	float: left;
+
+}
+
+.head {
+	width: 1460px;
+	height: 89px;
+
+	background-image: url(../img/images/top.jpg);
+}
+
+.head-left {
+	float: left;
+
+	margin-left: 50px;
+}
+.head-left ul{
+	margin-left: -0px;
+}
+.head-left ul li {
+	float: left;
+	margin-left: 25px;
+	font-size: 25px;
+	line-height: 89px;
+
+	
+}
+
+.head-Central {
+	float: left;
+	margin-left: 50px;
+}
+.gybg
+{
+	background: url(../img/bg.jpg) no-repeat;
+	background-attachment: fixed;
+	height: 900px;
+}
+.wmcenter {
+	padding-top: 50px;
+	text-align: center;
+	height: 700px;
+	font-size: 18px;
+}
+
+.head-left ul li a:hover {
+	transform: scale(1.2, 1.2);
+}
+
+.head-left ul li a {
+	display: inline-block;
+	transition: All 0.4s ease-in-out;
+}
+.lbbj {
+	background-color:burlywood;
+	height: 770px;
+}
+.anniu
+{
+	background-image:url(../img/anniu4.jpg);
+	width: 20px;
+	height: 20px;
+	position: relative;
+	bottom: -130px;
+	border-radius: 20px;
+}
+.dy
+{
+	font-family:"方正舒体","Brush Script MT","华文行楷";
+	text-align: center;
+	padding-top: 60px;
+	margin-bottom: -80px;
+	font-size: 30px;
+	font-weight: 700;
+}
+.footer{
+	font-size:14px;
+	color:#373535;
+	text-align: center;
+	font-family: "方正舒体";
+	position: relative;
+	float: right;
+	margin-right:600px ;
+	margin-top: 25px;
+}
+.two div
+{
+	text-align: center;
+
+	
+}
+.two div img
+{
+	
+	height: 300px;
+	margin-left: 100px;
+	margin-right: 60px;
+	margin-top:100px ;
+	
+
+}
+.two div img:hover{
+	transform: scale(1.2,1.2);
+	opacity: 0.5;
+}
+.one{
+	height: 1500px;
+	border: 0px solid red;
+}
+
